@@ -1,0 +1,52 @@
+@import url(./variables.css);
+
+.carousel {
+    width: 60%;
+    height: 16rem;
+    margin: auto;
+    border: 1px solid var(--primary-500);
+    background-color: var(--grey-500);
+    border-radius: 2px;
+}
+
+.slide-show {
+    border: 1px solid red;
+
+    overflow-x: hidden;
+}
+
+.slider {
+    margin: auto;
+    border: 1px solid red;
+
+    display: flex;
+
+    position: relative;
+}
+
+.slider-item-img {
+    margin: auto;
+}
+
+@keyframes slider-move {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+.move-slider {
+    animation: slider-move 2s ease-in-out forwards;
+}
+
+
+.carousel-indicators > li {
+    width: 2rem;
+    height: .5rem;
+    
+    background-color: var(--grey-900);
+    border-radius: 2px;
+}

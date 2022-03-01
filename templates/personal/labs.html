@@ -1,0 +1,41 @@
+{% extends 'personal/home.html' %}
+{% load static %}
+
+
+{% block content %}
+    <div class="keep-link-active labs"></div>
+    <div class="content-section-head">
+        <div class="section-tab nw_security_lab tab-active">Network Security Lab</div>
+        <div class="section-tab iot_security_lab">IoT Security Lab</div>
+        <div class="section-tab cpsec">CPSEC</div>
+    </div>
+    <div class="content-section-body">
+        <div class="content-section section-active" id="nw_security_lab">
+            <h4>This is Network Security Lab.</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus ea iusto laudantium aliquid repellendus mollitia
+                facere, tempora incidunt veritatis repudiandae sed dolore odio dicta necessitatibus rem consectetur ullam, eligendi
+                inventore quia quis? Natus, delectus, laudantium obcaecati atque quidem quae sint error exercitationem inventore at
+                voluptas a nostrum illum quam saepe.</p>
+            <div class="content-sub-section">
+                <h5>Photos</h5>
+            </div>
+            <div class="content-sub-section">
+                <h5>Software and Hardware Available</h5>
+            </div>
+        </div>
+        <div class="content-section" id="iot_security_lab">
+            <h4>This is IoT Security Lab.</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus ea iusto laudantium aliquid repellendus mollitia
+                facere, tempora incidunt veritatis repudiandae sed dolore odio dicta necessitatibus rem consectetur ullam, eligendi
+                inventore quia quis? Natus, delectus, laudantium obcaecati atque quidem quae sint error exercitationem inventore at
+                voluptas a nostrum illum quam saepe.</p>
+        </div>
+        <div class="content-section" id="cpsec">
+            <h4>This is CPSEC.</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus ea iusto laudantium aliquid repellendus mollitia
+                facere, tempora incidunt veritatis repudiandae sed dolore odio dicta necessitatibus rem consectetur ullam, eligendi
+                inventore quia quis? Natus, delectus, laudantium obcaecati atque quidem quae sint error exercitationem inventore at
+                voluptas a nostrum illum quam saepe.</p>
+        </div>
+    </div>
+{% endblock %}

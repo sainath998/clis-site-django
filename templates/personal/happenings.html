@@ -1,0 +1,51 @@
+{% extends 'personal/home.html' %}
+{% load static %}
+
+
+{% block content %}
+    <div class="keep-link-active happenings"></div>
+    <div class="content-section-head">
+        <div class="section-tab events tab-active">Events</div>
+        <div class="section-tab achievements">Achievements</div>
+        <div class="section-tab announcements">Announcements</div>
+    </div>
+    <div class="content-section-body">
+        <div class="content-section section-active" id="events">
+            <h4>This is Events.</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus ea iusto laudantium aliquid repellendus mollitia
+                facere, tempora incidunt veritatis repudiandae sed dolore odio dicta necessitatibus rem consectetur ullam, eligendi
+                inventore quia quis? Natus, delectus, laudantium obcaecati atque quidem quae sint error exercitationem inventore at
+                voluptas a nostrum illum quam saepe.</p>
+
+            <div class="content-sub-section">
+                <h5>Invited Talks</h5>
+            </div>
+            <div class="content-sub-section">
+                <h5>Workshops Seminars Conferences</h5>
+            </div>
+        </div>
+        <div class="content-section" id="achievements">
+            <h4>This is Achievements.</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus ea iusto laudantium aliquid repellendus mollitia
+                facere, tempora incidunt veritatis repudiandae sed dolore odio dicta necessitatibus rem consectetur ullam, eligendi
+                inventore quia quis? Natus, delectus, laudantium obcaecati atque quidem quae sint error exercitationem inventore at
+                voluptas a nostrum illum quam saepe.</p>
+        </div>
+        <div class="content-section" id="announcements">
+            <h4>This is Announcements.</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus ea iusto laudantium aliquid repellendus mollitia
+                facere, tempora incidunt veritatis repudiandae sed dolore odio dicta necessitatibus rem consectetur ullam, eligendi
+                inventore quia quis? Natus, delectus, laudantium obcaecati atque quidem quae sint error exercitationem inventore at
+                voluptas a nostrum illum quam saepe.</p>
+            <div class="content-sub-section">
+                <h5>Projects</h5>
+            </div>
+            <div class="content-sub-section">
+                <h5>Publications</h5>
+            </div>
+            <div class="content-sub-section">
+                <h5>Awards</h5>
+            </div>
+        </div>
+    </div>
+{% endblock %}

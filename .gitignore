@@ -1,0 +1,8 @@
+db.sqlite3
+.env
+media
+static
+static_cdn/admin/css
+static_cdn/admin/js
+static_cdn/admin/img
+static_cdn/admin/fonts
